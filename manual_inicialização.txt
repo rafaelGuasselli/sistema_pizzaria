@@ -1,0 +1,23 @@
+O sistema só depende do python.
+para inicializar é só chamar python main.py
+
+
+
+
+Funcionamento:
+O sistema inicia deslogado. Você pode ou criar um cliente/atendente novo ou usar os padrões
+cliente: teste, senha: 123
+atendente: admin, senha: admin
+
+o atendente tem permissão para crud das pizzas, registrar e listar pedidos e entregar pedidos
+o cliente tem permissão para criar pedidos e receber pedidos
+
+após um cliente receber um pedido ou um atendente entregar um pedido esse pedido sera considereado como entregue.
+
+a sequencia de um pedido pode seguir de duas maneiras:
+1. atendente(registra um pedido) -> atendente(entrega um pedido)
+2. atendente(registra um pedido) -> cliente(recebe um pedido)
+3. cliente(faz um pedido) -> cliente(recebe um pedido)
+
+
+não deu tempo 
