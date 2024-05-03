@@ -13,7 +13,7 @@ class Mercadoria:
 	#Função padrão de calcular o preço
 	def calcularTotal(self) -> float:
 		quantidade = self.quantidade or 1
-		return self.preco * quantidade
+		return float(self.preco * quantidade)
 
 	#Formata a mercadoria para ser printada no sistema
 	def __str__(self) -> str:

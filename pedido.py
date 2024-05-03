@@ -22,7 +22,7 @@ class Pedido:
 				continue
 			preco += mercadoria.calcularTotal()
 		
-		return preco
+		return float(preco)
 
 	#Formata o pedido em forma de nota fiscal
 	def __str__(self) -> str:
