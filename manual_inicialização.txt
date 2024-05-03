@@ -2,8 +2,6 @@ O sistema só depende do python.
 para inicializar é só chamar python main.py
 
 
-
-
 Funcionamento:
 O sistema inicia deslogado. Você pode ou criar um cliente/atendente novo ou usar os padrões
 cliente: teste, senha: 123
