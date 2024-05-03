@@ -20,4 +20,4 @@ a sequencia de um pedido pode seguir de duas maneiras:
 3. cliente(faz um pedido) -> cliente(recebe um pedido)
 
 
-não deu tempo 
+não deu tempo de usar todas as classes que eu criei.
